@@ -1,0 +1,17 @@
+Anna Boccuzzi
+
+schema.sql: (done?) decimal for price is iffy
+
+	Products(pid: integer, name: string, price: integer)
+	Sales(pid: integer, cid: integer, quantity: integer)
+	Customers(cid: integer, name: string, budget: integer)
+
+Shop.java
+
+	A Java JDBCbased application run by customers, with name Shop.java.
+	The application must have a commandline interface menu that allows the
+	user to select one option as described below. Once that menu function 
+	is completed, the program must return results if applicable and then 
+	return to the main menu. For each menu option, you are allowed (and 
+	even recommended, if needed) to have multiple steps (or “screens”) to 
+	complete the tasks. You will use the DBS3 Oracle instance as DBMS.
